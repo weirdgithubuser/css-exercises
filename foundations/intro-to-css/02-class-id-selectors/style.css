@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.odd {
+    color: black;
+    background-color: rgb(247, 128, 128);
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
+}
+
+#eventwo {
+    color: blue;
+    font-size: 36px;
+}
+ 
+#evenfour {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

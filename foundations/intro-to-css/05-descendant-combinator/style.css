@@ -1,1 +1,8 @@
 /* Add CSS Styling */
+/* Space between two classes indicate parent child relation */
+.container .text{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+}

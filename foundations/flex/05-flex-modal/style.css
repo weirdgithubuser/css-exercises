@@ -15,11 +15,30 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-size: 20px;
+  font-weight: 900;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.second-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.second-second{
+  margin-bottom: 15px;
 }
 
 .icon {

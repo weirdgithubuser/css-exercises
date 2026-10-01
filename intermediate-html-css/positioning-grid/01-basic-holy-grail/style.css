@@ -1,3 +1,5 @@
+/* solved  */
+
 body,
 html {
   height: 100%;
@@ -5,6 +7,9 @@ html {
 }
 
 .container {
+  display : grid;
+  gap: 15px;
+  grid-template: 1fr 1fr 5fr 1fr/ 1fr 3fr;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -22,10 +27,12 @@ html {
 
 .header {
   background-color: #006157;
+  grid-column: 1 / 3;
 }
 
 .sidebar {
   background-color: #005B94;
+  grid-row : 2 / 4;
 }
 
 .nav {
@@ -38,6 +45,7 @@ html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: 1 / span 2;
 }
 
 .article p {
